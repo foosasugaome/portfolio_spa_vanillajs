@@ -5,6 +5,7 @@ import About        from './views/pages/About.js'
 import Error404     from './views/pages/Error404.js'
 import PostShow     from './views/pages/PostShow.js'
 import Register     from './views/pages/Register.js'
+import Contact      from './views/pages/Contact.js';
 
 import Navbar       from './views/components/Navbar.js'
 import Bottombar    from './views/components/Bottombar.js' 
@@ -17,6 +18,7 @@ const routes = {
     , '/about'      : About
     , '/p/:id'      : PostShow
     , '/register'   : Register
+    , '/contact'    : Contact
 };
 
 
