@@ -2,23 +2,31 @@
 
 import Home         from './views/pages/Home.js'
 import About        from './views/pages/About.js'
-import Error404     from './views/pages/Error404.js'
-import PostShow     from './views/pages/PostShow.js'
-import Register     from './views/pages/Register.js'
+import Projects     from './views/pages/Projects.js'
+// import Articles     from './views/pages/Articles.js';
 import Contact      from './views/pages/Contact.js';
 
 import Navbar       from './views/components/Navbar.js'
 import Bottombar    from './views/components/Bottombar.js' 
 
+import Error404     from './views/pages/Error404.js'
+
 import Utils        from './services/Utils.js'
+
+// Sub-pages
+import Smurl        from './views/pages/Smurl.js';
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/'             : Home
     , '/about'      : About
-    , '/p/:id'      : PostShow
-    , '/register'   : Register
+    // , '/articles'   : Articles
+    // , '/p/:id'      : PostShow    
     , '/contact'    : Contact
+    , '/projects'   : Projects    
+    
+    // Route to sub-pages go here
+    , '/smurl'      : Smurl
 };
 
 
