@@ -4,7 +4,7 @@ let About = {
         <main class="container hero-section">
         <div class="container hero-content-wrapper">
           <h1 class="hero-heading">Hello!<br /></h1>
-          <h2 class="hero-subheading">My name is Norman Teodoro. I am a Filipino-Canadian based in&nbsp; Vancouver, British Columbia.&nbsp;</h2>
+          <h2 class="hero-subheading">My name is Norman Teodoro. I am a Filipino-Canadian based in British Columbia.</h2>
           <div class="responsive-picture picture-1">
             <picture>
               <img alt="Placeholder Picture" width="1836" height="1836" src="./images/horseman.jpg" loading="lazy">
