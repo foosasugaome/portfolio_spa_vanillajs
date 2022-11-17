@@ -7,7 +7,7 @@ let About = {
           <h2 class="hero-subheading">My name is Norman Teodoro. I am a Filipino-Canadian based in&nbsp; Vancouver, British Columbia.&nbsp;</h2>
           <div class="responsive-picture picture-1">
             <picture>
-              <img alt="Placeholder Picture" width="1836" height="1836" src="./images/IMG_20221104_135331_720-01.jpeg" loading="lazy">
+              <img alt="Placeholder Picture" width="1836" height="1836" src="./images/horseman.jpeg" loading="lazy">
             </picture>
           </div>
           <p class="paragraph article-paragraph">I am a software engineer who has been working with different fields of technology for about 12 years now.&nbsp; I believe in engineering processes, starting from requirements gathering and concept development to implementation on the platform as well as testing it after everything is done. I am always looking to take up new challenges and learn new things when needed.<br></p>
