@@ -33,31 +33,6 @@ let Home = {
               <a class="link-text index-article-text-link" href="expressfinance.html" title="Express Finance">Read more &gt;</a>
             </div>
           </div>
-          <div class="container article">
-            <div class="container content-article">
-              <div class="responsive-picture index-article-picture" data-outofview="true">
-                <picture>
-                  <img alt="Placeholder Picture" width="400" height="300" src="img/picture.svg" loading="lazy">
-                </picture>
-              </div>
-              <h3 class="index-article-heading">Project 3</h3>
-              <p class="paragraph index-article-paragraph">Maybe it was the eleven months he spent in the womb. The doctor said there were claw marks on the walls of her uterus. Yeah, well, have you seen the new Mustang?<br></p>
-              <a class="link-text index-article-text-link" href="article-1.html">Read more &gt;</a>
-            </div>
-          </div>
-          <div class="container article">
-            <div class="container content-article">
-              <div class="responsive-picture index-article-picture" data-outofview="true">
-                <picture>
-                  <img alt="Placeholder Picture" width="400" height="300" src="img/picture.svg" loading="lazy">
-                </picture>
-              </div>
-              <h3 class="index-article-heading">Project 4</h3>
-              <p class="paragraph index-article-paragraph">Busey ipsum dolor sit amet. Have you urinated? Have you drained your bladder? Are you free? Because if you haven't it will only come out later. I'm giving you some information that your bodily fluids may penetrate your clothing fibre's without warning.It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.<br></p>
-              <a class="link-text index-article-text-link" href="article-1.html">Read more &gt;</a>
-            </div>
-          </div>
-          
         </section>
       </div>      
       </div>
