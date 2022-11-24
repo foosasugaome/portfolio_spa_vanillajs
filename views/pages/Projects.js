@@ -28,7 +28,8 @@ let Projects = {
                 <h1 class="hero-heading">Projects<br /> </h1>                                     
                 <h2 class="hero-subheading">Here are some of my projects that I have been working on. Click on the links below to view the project in github.<hr /></h2> <br />
                     ${ posts.map(post => 
-                        /*html*/`<h2 class="hero-subheading"><a class="link-text index-article-text-link" href="${post.html_url}" target="_blank" rel="noreferrer">${post.description}</a></h2><br />`
+                        /*html*/`<h2 class="hero-subheading"><a class="link-text index-article-text-link" href="${post.html_url}" target="_blank" rel="noreferrer">${post.description}</a></h2>                        
+                        <br />`
                         ).join('\n ')
                     }
             </div>           
