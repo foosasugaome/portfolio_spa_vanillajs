@@ -19,9 +19,7 @@ import Smurl        from './views/pages/Smurl.js';
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/'             : Home
-    , '/about'      : About
-    // , '/articles'   : Articles
-    // , '/p/:id'      : PostShow    
+    , '/about'      : About    
     , '/contact'    : Contact
     , '/projects'   : Projects    
     
