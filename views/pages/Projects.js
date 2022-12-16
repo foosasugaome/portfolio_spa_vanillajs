@@ -34,11 +34,6 @@ let Projects = {
                     }
             </div>           
         </main>
-        <section class="container quote-section">
-        <div class="container container-quote">
-          <blockquote class="blockquote"></blockquote>
-        </div>
-      </section>
        `
        return view
    }
