@@ -36,7 +36,7 @@ let Projects = {
         </main>
         <section class="container quote-section">
         <div class="container container-quote">
-          <blockquote class="blockquote">"Site is a work in progress. Come back again soon."</blockquote>
+          <blockquote class="blockquote"></blockquote>
         </div>
       </section>
        `
