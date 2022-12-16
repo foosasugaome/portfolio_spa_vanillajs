@@ -30,7 +30,7 @@ let Home = {
               </div>
               <h3 class="index-article-heading">Express Finance</h3>
               <p class="paragraph index-article-paragraph">A simple stocks portfolio performance tracker.<br></p>
-              <a class="link-text index-article-text-link" href="expressfinance.html" title="Express Finance">Read more &gt;</a>
+              <a class="link-text index-article-text-link" href="https://github.com/foosasugaome/express-finance" title="Express Finance">Read more &gt;</a>
             </div>
           </div>
         </section>
