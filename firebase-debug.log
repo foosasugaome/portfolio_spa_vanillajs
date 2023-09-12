@@ -1,0 +1,85 @@
+[debug] [2023-09-12T22:24:14.543Z] ----------------------------------------------------------------------
+[debug] [2023-09-12T22:24:14.544Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-09-12T22:24:14.544Z] CLI Version:   12.5.3
+[debug] [2023-09-12T22:24:14.545Z] Platform:      linux
+[debug] [2023-09-12T22:24:14.545Z] Node Version:  v19.6.0
+[debug] [2023-09-12T22:24:14.545Z] Time:          Tue Sep 12 2023 15:24:14 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-09-12T22:24:14.545Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-12T22:24:14.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-12T22:24:14.608Z] > authorizing via signed-in user (norman.teodoro@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/norman/projects/nrmn_spa_vanillajs
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-12T22:24:21.879Z] Using project from CLI flag: spa-vanillajs-30146
+[debug] [2023-09-12T22:24:21.879Z] > refreshing access token with scopes: []
+[debug] [2023-09-12T22:24:21.881Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-12T22:24:21.881Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:24:21.979Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-09-12T22:24:21.979Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:24:21.980Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 [none]
+[debug] [2023-09-12T22:24:22.098Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 401
+[debug] [2023-09-12T22:24:22.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-09-12T22:24:22.101Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-09-12T22:24:22.158Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project spa-vanillajs-30146. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-09-12T22:25:11.643Z] ----------------------------------------------------------------------
+[debug] [2023-09-12T22:25:11.644Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-09-12T22:25:11.645Z] CLI Version:   12.5.3
+[debug] [2023-09-12T22:25:11.645Z] Platform:      linux
+[debug] [2023-09-12T22:25:11.645Z] Node Version:  v19.6.0
+[debug] [2023-09-12T22:25:11.645Z] Time:          Tue Sep 12 2023 15:25:11 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-09-12T22:25:11.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-12T22:25:11.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-12T22:25:11.707Z] > authorizing via signed-in user (norman.teodoro@gmail.com)
+[debug] [2023-09-12T22:25:11.707Z] [iam] checking project spa-vanillajs-30146 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-12T22:25:11.708Z] > refreshing access token with scopes: []
+[debug] [2023-09-12T22:25:11.709Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-12T22:25:11.709Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:25:11.832Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-09-12T22:25:11.832Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:25:11.833Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/spa-vanillajs-30146:testIamPermissions [none]
+[debug] [2023-09-12T22:25:11.833Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/spa-vanillajs-30146:testIamPermissions x-goog-quota-user=projects/spa-vanillajs-30146
+[debug] [2023-09-12T22:25:11.833Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spa-vanillajs-30146:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-12T22:25:11.910Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/spa-vanillajs-30146:testIamPermissions 401
+[debug] [2023-09-12T22:25:11.911Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spa-vanillajs-30146:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2023-09-12T22:25:11.913Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-09-12T22:25:11.915Z] > refreshing access token with scopes: []
+[debug] [2023-09-12T22:25:11.916Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-12T22:25:11.916Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:25:11.952Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-09-12T22:25:11.952Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-12T22:25:11.953Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 [none]
+[debug] [2023-09-12T22:25:12.019Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 401
+[debug] [2023-09-12T22:25:12.019Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spa-vanillajs-30146 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-09-12T22:25:12.019Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-09-12T22:25:12.080Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project spa-vanillajs-30146. Please make sure the project exists and your account has permission to access it.
